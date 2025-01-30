@@ -65,7 +65,6 @@ function gerarNumeroSecreto() {
         return gerarNumeroSecreto();
     } else {
         listaDeNumerosSorteados.push(numeroGerado);
-        console.log(listaDeNumerosSorteados);
         return numeroGerado;
     };
 };
